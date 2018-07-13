@@ -1,6 +1,6 @@
 # weatherApp
 
-Application enables to find weather information for next 5 days and for 24 hours for a given city.
+This application enables to find weather information for next 5 days and for 24 hours for a given city.
 
 ### `npm start`
 
