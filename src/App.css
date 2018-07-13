@@ -1,0 +1,36 @@
+.hourly-weather,
+.day-by-day-weather{
+    color: #eee;
+    margin: 5px;
+    padding-left:5px;
+}
+
+.hour-weather,
+.day-weather{
+    border-radius: 10px 10px 0 0;
+    background-color: rgba(128,128,128,0.5);
+    filter: alpha(opacity=50);
+    margin-bottom:5px;
+}
+
+.row{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.error-msg{
+    min-height:25px;
+}
+
+.alert-msg{
+    border-radius: 5px;
+    margin-top:3px;
+}
+
+.city-name{
+    color: #eee;
+    background-color: rgba(128,128,128,0.5);
+    padding:10px;
+    border-radius: 10px;
+}
+

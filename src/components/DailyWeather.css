@@ -1,0 +1,19 @@
+.icon-img{
+    width:70px;
+}
+
+.daily-weather-description,
+.daily-icon{
+    background-color: rgba(128,128,128,0.5);
+    filter: alpha(opacity=50);
+    margin-bottom:5px;
+    border-radius: 0 0 10px 10px;
+}
+
+.daily-icon{
+    border-radius: 0;
+}
+
+.daily-temp {
+    font-size: 30px;
+}

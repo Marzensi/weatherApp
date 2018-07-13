@@ -1,0 +1,14 @@
+.icon-img{
+    width:70px;
+}
+
+.hourly-temp {
+    font-size: 20px;
+}
+
+.hourly-icon {
+    background-color: rgba(128, 128, 128, 0.5);
+    filter: alpha(opacity=50);
+    margin-bottom: 5px;
+    border-radius: 0 0 10px 10px;
+}
