@@ -6,6 +6,8 @@ import DailyWeather from './components/DailyWeather';
 import HourlyWeather from './components/HourlyWeather';
 
 const apiKey = 'bd6815fd6114722bebc4d8d737075b7f';
+let months = ['styczeń','luty','marzec','kwiecień','maj','czerwiec','lipiec','sierpień','wrzesień','październik','listopad','grudzień'];
+let days = ['Niedziela', 'Poniedziałek', 'Wtorek', 'Środa', 'Czwartek', 'Piątek', 'Sobota'];
 
 class App extends Component {
     constructor(props){
@@ -80,7 +82,6 @@ class App extends Component {
 
     dateConverter = UNIX_timestamp => {
         let a = new Date(UNIX_timestamp * 1000);
-        let months = ['styczeń','luty','marzec','kwiecień','maj','czerwiec','lipiec','sierpień','wrzesień','październik','listopad','grudzień'];
         let year = a.getFullYear();
         let month = months[a.getMonth()];
         let date = a.getDate();
@@ -89,7 +90,6 @@ class App extends Component {
 
     dayNameConverter = UNIX_timestamp => {
         let a = new Date(UNIX_timestamp * 1000);
-        let days = ['Niedziela', 'Poniedziałek', 'Wtorek', 'Środa', 'Czwartek', 'Piątek', 'Sobota'];
         return days[a.getDay()];
     };
 
