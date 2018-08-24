@@ -6,8 +6,8 @@ import DailyWeather from './components/DailyWeather';
 import HourlyWeather from './components/HourlyWeather';
 
 const apiKey = 'bd6815fd6114722bebc4d8d737075b7f';
-let months = ['styczeń','luty','marzec','kwiecień','maj','czerwiec','lipiec','sierpień','wrzesień','październik','listopad','grudzień'];
-let days = ['Niedziela', 'Poniedziałek', 'Wtorek', 'Środa', 'Czwartek', 'Piątek', 'Sobota'];
+const months = ['styczeń','luty','marzec','kwiecień','maj','czerwiec','lipiec','sierpień','wrzesień','październik','listopad','grudzień'];
+const days = ['Niedziela', 'Poniedziałek', 'Wtorek', 'Środa', 'Czwartek', 'Piątek', 'Sobota'];
 
 class App extends Component {
     constructor(props){
